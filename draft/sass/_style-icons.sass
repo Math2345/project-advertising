@@ -1,0 +1,51 @@
+
+@charset "UTF-8"
+
+@font-face
+  font-family: 'icomoon'
+  src:  url('../font/font-icon/icomoon.eot?r321ka')
+  src:  url('../font/font-icon/icomoon.eot?r321ka#iefix') format('embedded-opentype'),
+  url('../font/font-icon/icomoon.ttf?r321ka') format('truetype'),
+  url('../font/font-icon/icomoon.woff?r321ka') format('woff'),
+  url('../font/font-icon/icomoon.svg?r321ka#icomoon') format('svg')
+  font-weight: normal
+  font-style: normal
+
+[class^="icon-"], [class*=" icon-"]
+
+  font-family: 'icomoon' !important
+  speak: none
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+
+
+@mixin spriteImgSvg($code, $size)
+  content: $code
+  font-size: $size
+
+
+
+.icon-1:before
+  @include spriteImgSvg("\e904", 70px)
+
+.icon-2:before
+  @include spriteImgSvg("\e905", 70px)
+
+.icon-3:before
+  @include spriteImgSvg("\e902", 70px)
+
+.icon-4:before
+  @include spriteImgSvg("\e901", 70px)
+
+.icon-5:before
+  @include spriteImgSvg("\e900", 70px)
+
+.icon-6:before
+  @include spriteImgSvg("\e903", 70px)

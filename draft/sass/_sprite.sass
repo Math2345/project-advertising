@@ -1,0 +1,43 @@
+$pathImg : "../images/sprite/sprite.png"
+
+@mixin spriteImgPng($path, $width, $height, $pos_x, $pos_y)
+  display: inline-block
+  background-image: url($path)
+  background-position: $pos_x $pos_y
+  width: $width
+  height: $height
+
+
+
+
+.sprite-icon-advantages-1
+  @include spriteImgPng($pathImg, 54px, 54px, 0, 0)
+
+.sprite-icon-advantages-2
+  @include spriteImgPng($pathImg, 54px, 54px, -54px, 0)
+
+.sprite-icon-advantages-3
+  @include spriteImgPng($pathImg, 35px, 54px, -52px, -54px)
+
+.sprite-icon-advantages-4
+  @include spriteImgPng($pathImg, 52px, 54px, 0, -54px)
+
+.sprite-icon-phone
+  @include spriteImgPng($pathImg, 35px, 38px, -108px, 0)
+
+.sprite-icon-contact-1:before
+  content: ''
+  @include spriteImgPng($pathImg, 10px, 14px, -108px, -71px)
+
+.sprite-icon-contact-2:before
+  content: ''
+  @include spriteImgPng($pathImg, 10px, 14px, -118px, -71px)
+
+.sprite-icon-contact-3:before
+  content: ''
+  @include spriteImgPng($pathImg, 14px, 14px, -124px, -38px)
+
+.sprite-play
+  position: relative
+  right: 7px
+  @include spriteImgPng($pathImg, 16px, 20px, -108px, -38px)

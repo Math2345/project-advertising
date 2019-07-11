@@ -1,0 +1,381 @@
+@import "vars"
+
+@media only screen and (max-width : 1200px)
+  .header
+
+   &__tel
+    display: none
+
+   &__view
+     align-items: flex-start
+
+
+   .img-responsive
+    margin-top: 0
+
+   &__title
+
+    margin-top: 100px
+    margin-right: 10px
+
+   &__text
+    font-size: 30px
+
+   &__navigation
+    margin-right: 0
+
+   .portfolio__link
+    height: 250px
+
+   .portfolio__title
+    line-height: 18px
+    font-size: 15px
+
+  .services
+
+    padding-top: 50px
+    padding-bottom: 50px
+
+    &__wrap
+     margin-top: 10px
+
+    &__item
+     justify-content: center
+
+     padding-top: 50px
+     height: 200px
+
+  .order
+    background-position: 50% 0
+
+
+
+
+
+    &__subtitle
+      font-size: 25px
+
+    &__description
+
+     font-size: 18px
+
+  .features
+    padding: 50px 0 50px 0
+
+    &__wrap-description
+      flex-basis: 100%
+
+  .clients
+    padding: 50px 0 50px 0
+
+
+  .video
+    height: 200px
+
+  .contact
+    margin-top: 50px
+
+    .wrapper
+      justify-content: center
+
+
+    &__description
+
+      flex-basis: 350px
+      margin-left: 20px
+
+    &__text
+      font-size: 16px
+
+
+  .footer
+    height: 20px
+
+@media only screen and (max-width : 920px)
+  .header
+
+    &__navigation
+        display: none
+
+    &__view
+        flex-direction: column
+
+    &__title
+        flex-basis: 50px
+
+  .hamburger,
+  #mobile-menu,
+  .site-overlay
+    display: inline-block
+
+
+  .portfolio
+
+     &__list
+        flex-wrap: wrap
+
+     &__item
+        flex: 1 1 300px
+
+     &__link
+        height: 175px
+
+  .description__title
+      font-size: 25px
+
+  .order
+    background-position: 50% 0
+
+    padding: 50px 0 50px 0
+
+    &__wrap-img
+      display: none
+
+    &__content
+      margin-left: 100px
+      flex-basis: 100%
+
+
+  .contact
+
+    .wrapper
+      flex-direction: column
+
+
+    &__map-container
+      flex: auto
+
+    &__description
+      margin-top: 20px
+
+
+@media only screen and (max-width : 768px)
+   .header
+
+     &__text
+       font-size: 24px
+
+
+     .portfolio
+
+      &__item
+
+        flex-basis: 100%
+
+
+   .services
+
+
+      &__item
+
+        flex-basis: 100%
+
+   .features
+
+      padding: 20px 0 20px 0
+
+      &__wrap-list
+
+        flex-direction: column
+
+      &__item
+        flex-direction: column
+
+
+      &__wrap-description
+        margin-top: 20px
+        text-align: center
+
+      .wrap-icon
+        text-align: center
+
+   .clients
+
+     padding: 20px 0 20px 0
+
+     &__item
+
+       flex-basis: 100%
+
+
+
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+//@media only screen and (max-width : 768px)
+//
+//  /*Disable Animation on Mobile Devices*/
+//  .animated
+//    /*CSS transitions*/
+//    -o-transition-property: none !important
+//    -moz-transition-property: none !important
+//    -ms-transition-property: none !important
+//    -webkit-transition-property: none !important
+//    transition-property: none !important
+//    /*CSS transforms*/
+//    -o-transform: none !important
+//    -moz-transform: none !important
+//    -ms-transform: none !important
+//    -webkit-transform: none !important
+//    transform: none !important
+//    /*CSS animations*/
+//    -webkit-animation: none !important
+//    -moz-animation: none !important
+//    -o-animation: none !important
+//    -ms-animation: none !important
+//    animation: none !important
+//
+//  .header
+//    height: auto
+//    background-attachment: inherit
+//
+//  .header__main
+//    justify-content: center
+//
+//  .header__preview
+//    flex-basis: auto
+//    flex-direction: column
+//
+//  .header__title
+//    margin-bottom: 15px
+//    padding: 15px
+//
+//  .container .header__menu
+//    display: none
+//
+//  .hamburger,
+//  #mobile-menu,
+//  .site-overlay
+//    display: inline-block
+//
+//  .header__main
+//    margin-top: 10px
+//    margin-bottom: 10px
+//
+//  .portfolio__list
+//    flex-wrap: wrap
+//
+//  .portfolio__item
+//    flex: 1 1 300px
+//
+//  .portfolio__link
+//    height: 175px
+//
+//  .portfolio__wrap-img
+//    height: 115px
+//
+//  .portfolio__img
+//    height: 100px
+//
+//  .description__title
+//    font-size: 25px
+//
+//  .services__grid
+//    height: 150px
+//
+//  .free
+//    background-position: 50% 0
+//    background-attachment: inherit
+//
+//  .free__img-wrap
+//    display: none
+//
+//  .advantages__grid
+//    flex-basis: 300px
+//
+//  .product
+//    background-image: linear-gradient(to top, rgba(103, 14, 122, 0.7) 100%, rgba(103, 14, 122, 0.7) 100%), url("../image/bg/production-bg-640.jpg")
+//
+//  .product__wrap
+//    margin: 0 10px
+//    text-align: center
+//
+//  .product__text
+//    margin: 20px 0
+//    line-height: 25px
+//
+//  .footer .container
+//    flex-wrap: wrap
+//
+//  .modal
+//    margin: 0
+//    padding: 0
+//    width: 100%
+//
+//  .modal__close
+//    top: 0
+//    right: 15px
+//
+//  .modal__close:before
+//    content: "x"
+//    font-size: 30px
+//    color: $red
+//    z-index: 103
+//
+//  .modal__input
+//    max-width: 100%
+//    width: calc(100% - 20px)
+//    margin: 10px
+//
+//  .modal__btn
+//    margin: 38px 5px 19px 5px
+//    //max-width: 100%
+//    width: calc(100% - 20px)
+//
+//  .footer__map-container
+//    flex: 1 1 440px
+//
+//
+///* Extra Small Devices, Phones */
+//@media only screen and (max-width : 480px)
+//  .header__logo-link
+//    margin-right: 72px
+//
+//  .header__title
+//    padding: 5px
+//    text-align: center
+//    font-size: 23px
+//    word-spacing: 5px
+//
+//  .services__grid
+//    height: 120px
+//
+//  .services__wrap-icon
+//    height: 70px
+//    width: 70px
+//    font-size: 50px
+//
+//  .free__wrap
+//    height: auto
+//
+//  .advantages__grid
+//    flex-wrap: wrap
+//    flex-direction: column
+//    text-align: center
+//
+//    margin-bottom: 20px
+//
+//  .advantages__wrap-icon
+//    margin: 0 auto
+//
+//  .advantages__title
+//    margin-bottom: 0
+//
+//  .clients__wrap
+//    flex-direction: column
+//
+//  .clients__grid
+//    flex: auto
+//
+//  .product
+//    height: 350px
+//    background-image: linear-gradient(to top, rgba(103, 14, 122, 0.7) 100%, rgba(103, 14, 122, 0.7) 100%), url("../image/bg/production-bg-480.jpg")
+//
+//  .btn
+//    margin-right: 10px
